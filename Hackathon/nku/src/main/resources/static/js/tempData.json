@@ -1,0 +1,25 @@
+[{
+    "subject": "test file",
+    "sender": "test sender",
+    "recipient": "test recipient",
+    "body": "test body",
+    "date": "test date",
+    "attachment": "test attachment"
+},
+{
+    "subject": "test subject",
+    "sender": "test sender",
+    "recipient": "test recipient",
+    "body": "test body",
+    "date": "test date",
+    "attachment": "test attachment"
+},
+{
+    "subject": "test subject",
+    "sender": "test sender",
+    "recipient": "test recipient",
+    "body": "test body",
+    "date": "test date",
+    "attachment": "test attachment"
+}]
+

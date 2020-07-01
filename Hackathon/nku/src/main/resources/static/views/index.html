@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NKU Hackathon</title>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var urlParams = new URLSearchParams(window.location.search);
+        var username = urlParams.get('Username');
+    </script>
+    <h1>
+        Welcome <script>document.write(username)</script>
+    </h1>
+    <form action="/profile">
+        <input type="submit" value="Edit Profile">
+    </form>
+
+    <h2>Possible Phishing Data</h2>
+    <div id="root"></div>
+    <script src="../js/getData.js"></script>
+</body>
+</html>
